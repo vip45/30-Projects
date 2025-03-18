@@ -5,13 +5,22 @@
     font-family: Inter;
 }
 
+a {
+    all: unset;
+    cursor: pointer;
+}
+
 p,
 h1 {
     margin: unset;
 }
 
 .bg-orange {
-    background-color: #FF5722;
+    background-color: #ff5722;
+}
+
+.text-orange {
+    color: #ff5722;
 }
 
 .mb-16 {
@@ -44,13 +53,13 @@ section.header-section {
 }
 
 .navbar-btn .btn:first-child {
-    color: #FF5722;
+    color: #ff5722;
 }
 
 .navbar-btn .btn:nth-child(2) {
     color: white;
-    background-color: #FF5722;
-    box-shadow: 0px 4px 16px 0px #FF572252;
+    background-color: #ff5722;
+    box-shadow: 0px 4px 16px 0px #ff572252;
 }
 
 .nav-item a {
@@ -61,7 +70,7 @@ section.header-section {
 }
 
 .nav-link.active {
-    color: #FF5722 !important;
+    color: #ff5722 !important;
 }
 
 
@@ -94,6 +103,7 @@ section.header-section {
 }
 
 .explore-btn {
+    text-decoration: none;
     font-size: 18px;
     line-height: 28px;
     font-weight: 700;
@@ -117,14 +127,14 @@ img.slick-arrow.slick-disabled {
 
 /* Banner section end */
 
-.show {
+.showe {
     max-width: 278px;
 }
 
 .showcase {
     padding-top: 64px;
     padding-bottom: 64px;
-    background-color: #FFEFE9;
+    background-color: #ffefe9;
     margin-top: 64px !important;
     margin-bottom: 64px !important;
 }
@@ -132,6 +142,186 @@ img.slick-arrow.slick-disabled {
 .show-title {
     font-size: 32px;
     line-height: 42px;
-    color: #FF5722;
+    color: #ff5722;
     font-weight: 700;
+}
+
+
+/* faq section start  */
+
+.faq-container {
+    border: 1px solid #cfcfcf;
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+
+.custon-faq-question {
+    padding: 24px 30px;
+    font-size: 22px;
+    line-height: 22px;
+    color: #000000;
+    font-weight: 800;
+}
+
+.custom-faq-answer {
+    padding-left: 30px;
+    padding-bottom: 24px;
+    padding-right: 124px;
+    color: #000000;
+    font-size: 16px;
+    line-height: 31px;
+    font-weight: 500;
+}
+
+
+/* faq end  */
+
+
+/* footer */
+
+.footer-section {
+    padding: 64px 0;
+}
+
+.common-p {
+    color: #ffffff;
+}
+
+
+/* footer end */
+
+.watch-slider .watch-image:nth-child(2) img {
+    transform: rotate(135deg);
+    transition: trasnform 0.5s ease-in-out;
+}
+
+.watch-slider .watch-image:nth-child(3) img {
+    transform: rotate(90deg);
+    transition: transform 0.5s ease-in-out;
+}
+
+
+/*  */
+
+.product-tab-btn {
+    border: none !important;
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 600;
+    color: #222222;
+    padding: 4px 60px;
+}
+
+.product-tab-btn.active {
+    background: #ff572233 !important;
+    border-radius: 24px;
+}
+
+.product-list {
+    display: inline-flex !important;
+    margin: 0 auto;
+    border: 1px solid #FF5722 !important;
+    border-radius: 24px;
+    margin-top: 48px;
+    margin-bottom: 48px;
+}
+
+.product-card:nth-child(3n+1) {
+    background: url(/resource/images/bg1.svg), #FBFBFB;
+    background-repeat: no-repeat;
+    background-position: center 20px;
+}
+
+.product-card:nth-child(3n+2) {
+    background: url(/resource/images/bg2.svg), #FBFBFB;
+    background-repeat: no-repeat;
+    background-position: center 20px;
+}
+
+.product-card:nth-child(3n+3) {
+    background: url(/resource/images/bg3.svg), #FBFBFB;
+    background-repeat: no-repeat;
+    background-position: center 20px;
+}
+
+.product-card {
+    max-width: 372px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.product-card:hover {
+    border: 1px solid #FF5722 !important;
+    box-shadow: 0px 4px 9px 0px #FF5722;
+    background-color: white;
+    transition: background-color 0.2s ease-in, box-shadow 1s ease;
+    & .product-book-now {
+        background-color: #FF5722;
+        color: white;
+        transition: background-color 0.2s ease-in;
+    }
+    & .prod-img img {
+        transform: scale(1.1);
+        transition: transform 0.5s ease-in-out;
+    }
+}
+
+.products-menu {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px 12px;
+    justify-content: center;
+}
+
+.product-book-now {
+    text-align: center;
+    color: #FF5722;
+    font-size: 16px;
+    font-weight: 700;
+    background: white;
+    border: 1px solid;
+    padding: 12px 24px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    cursor: pointer;
+}
+
+.product-price {
+    color: #222222;
+    font-size: 32px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 8px;
+}
+
+.product-name {
+    font-size: 24px;
+    font-weight: 400;
+    color: #282828;
+    text-align: center;
+}
+
+.products {
+    margin-bottom: 64px;
+}
+
+.product-heading.text-orange {
+    font-size: 40px;
+    line-height: 52px;
+    margin-bottom: 8px;
+    text-align: center;
+    font-weight: 700;
+}
+
+p.product-para {
+    color: #374151;
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 400;
+    text-align: center;
+    padding: 0 150px;
 }
