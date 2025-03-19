@@ -325,3 +325,83 @@ p.product-para {
     text-align: center;
     padding: 0 150px;
 }
+
+
+/* book now page */
+
+.cross-arrow {}
+
+.book-now-main {
+    display: flex;
+    justify-content: start;
+    gap: 100px;
+    align-items: center;
+    height: 100%;
+}
+
+.book-now-watch-image {
+    max-width: 468px;
+    width: 100%;
+    text-align: center;
+    background: #FFEFE9;
+    border-radius: 24px;
+    height: 100%;
+}
+
+.book-now-watch-name {
+    color: #2F294D;
+    font-size: 32px;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+
+p.book-now-warranty {
+    color: #2F294D;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.book-now-stars {
+    display: flex;
+    margin-right: 10px;
+    gap: 5px;
+    font-weight: 700;
+}
+
+.features {
+    display: flex;
+    gap: 10px;
+    margin: 14px auto;
+}
+
+.book-now-cust {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.book-now-cust img:not(:first-child) {
+    margin-left: -21px;
+}
+
+.book-cart-btns>div {
+    cursor: pointer;
+}
+
+.book-now-watch-image img {
+    object-fit: contain;
+}
+
+.watch-book-price {
+    font-size: 44px;
+    font-weight: 700;
+}
+
+.book-now-watch-image img:hover {
+    scale: 1.1;
+    transform: rotate(-15deg);
+    transition: scale 1s ease, transform 1s ease;
+}

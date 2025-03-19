@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet" />
+
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick-theme.css" />
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-..." crossorigin="anonymous" />
+    <link rel="stylesheet" href="resource/css/style.css" />
+</head>
+
+<body>
+    <section class="header-section">
+        <nav class="navbar navbar-expand-lg bg-white">
+            <div class="container">
+                <a href="#" class="navbar-brand"><img src="resource/images/logo.svg" alt="Brand- LOGO" /></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navcontent">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+                <div class="collapse navbar-collapse" id="navcontent">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a href="index.html" class="nav-link">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="product.html" class="nav-link active">Product</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Contact Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="/index.html#faq-sec" class="nav-link">FAQ's</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="navbar-btn d-none d-lg-block">
+                    <button type="button" class="btn">Log In</button>
+                    <button type="button" class="btn">Sign Up</button>
+                </div>
+            </div>
+        </nav>
+    </section>
+
+    <section class="top-breadcrumb">
+        <div class="container gap-2 d-flex align-items-center">
+            <div class="cross-arrow d-flex align-items-center">
+                <img src="/resource/images/Union.png" alt="" />
+            </div>
+            <a href="index.html" class="home-button">Home</a>
+            <div class="cross-arrow d-flex align-items-center">
+                <img src="/resource/images/vec.png" alt="" />
+            </div>
+            <a href="product.html" class="product-page">Product Page</a>
+            <div class="cross-arrow d-flex align-items-center">
+                <img src="/resource/images/vec.png" alt="" />
+            </div>
+            <a href="#" class="current-watch" id="current-watch">Watch Name</a>
+        </div>
+    </section>
+
+    <section class="book-now-contaier my-3 mb-5">
+        <div class="container">
+            <div class="book-now-main">
+                <div class="book-now-watch-image">
+                    <img src="" id="watch-image" height="346px" width="346px" alt="" />
+                </div>
+                <div class="book-now-watch-data w-100">
+                    <p class="book-now-watch-name" id="watch-name">
+                        <!-- Fossil Men's Nate Chronograph Zoro Mindsweep G -->
+                    </p>
+                    <p class="book-now-warranty">
+                        Free 2 Days Shipping | 1 Year Warranty
+                    </p>
+                    <div class="d-flex justify-content-start align-items-center">
+                        <div class="book-now-stars">
+                            <img src="resource/images/star.png" alt="star" />
+                            <img src="resource/images/star.png" alt="star" />
+                            <img src="resource/images/star.png" alt="star" />
+                            <img src="resource/images/star.png" alt="star" />
+                            <img src="resource/images/star.png" alt="star" />
+                            <p class="text-black strong">5.0</p>
+                        </div>
+                        <p class="book-now-rev">from 392 Reviews</p>
+                    </div>
+                    <div class="watch-book-price" id="watch-price"></div>
+                    <div class="book-now-features">
+                        <div class="features">
+                            <img src="resource/images/check.png" alt="" />
+                            <p class="feature-para">Free Return</p>
+                        </div>
+                        <div class="features">
+                            <img src="resource/images/check.png" alt="" />
+                            <p class="feature-para">Chat with us 24 hours</p>
+                        </div>
+                        <div class="features">
+                            <img src="resource/images/check.png" alt="" />
+                            <p class="feature-para">Comes with a Package</p>
+                        </div>
+                    </div>
+
+                    <div class="book-now-cust">
+                        <img src="resource/images/cust.png" alt="" />
+                        <img src="resource/images/cust.png" alt="" />
+                        <img src="resource/images/cust.png" alt="" />
+                        <img src="resource/images/cust.png" alt="" />
+                        <img src="resource/images/cust.png" alt="" />
+                        <p class="text-orange">1,241 Sold in the last 24 hours</p>
+                    </div>
+
+                    <div class="book-cart-btns w-100 d-flex align-items-center gap-1 mt-2">
+                        <div class="buy-now-btn w-50 bg-orange text-center text-white py-3">
+                            BUY NOW
+                        </div>
+                        <div class="add-to-card w-50 text-center border border-danger py-3">
+                            ADD TO CART
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="suggestions mb-4">
+        <div class="container px-0">
+            <div class="suggestion-heading text-black fw-bold fs-3 mb-3">
+                Suggestions for you
+            </div>
+            <div class="products-menu suggestion-product" id="products-container">
+
+
+            </div>
+        </div>
+    </section>
+
+    <section class="footer-section bg-orange">
+        <div class="container d-flex justify-content-between">
+            <div class="footer-left d-flex flex-column gap-4 align-items-start">
+                <img src="resource/images/logof.svg" alt="" />
+                <div class="d-flex gap-4">
+                    <p class="common-p">Download Now</p>
+                    <p class="common-p">Licence</p>
+                </div>
+                <div class="d-flex gap-4">
+                    <p class="common-p">About</p>
+                    <p class="common-p">Features</p>
+                    <p class="common-p">Pricing</p>
+                    <p class="common-p">Careers</p>
+                    <p class="common-p">Help</p>
+                    <p class="common-p">Privacy Policy</p>
+                </div>
+                <p class="fff text-white fs-6">
+                    © 2021 Landify UI Kit. All rights reserved
+                </p>
+            </div>
+            <div class="footer-right">
+                <p class="store-para">Get the App</p>
+                <img src="resource/images/appstore.png" alt="" />
+                <img src="resource/images/playstore.png" alt="" />
+            </div>
+        </div>
+    </section>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha384-..." crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel/slick/slick.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-..." crossorigin="anonymous"></script>
+    <script src="/resource/js/script.js"></script>
+    <a class="w-100 pt-5 bg-black d-block" href="https://www.figma.com/design/Nd8AQ9Z9tOOqkHPqcuSXMC/NMIMS-project?node-id=65-212&p=f&t=MJOk7e2Ir2RBNgmg-0">FIGMA</a
+    >
+
+    <script>
+      // Extract URL parameters
+      const urlParams = new URLSearchParams(window.location.search);
+      const watchName = urlParams.get("name");
+      const watchImage = urlParams.get("image");
+      const watchPrice = urlParams.get("price");
+
+      // Set the extracted values to the corresponding HTML elements
+      if (watchName) {
+        document.getElementById("watch-name").textContent = watchName;
+        document.getElementById("current-watch").textContent = watchName;
+      }
+
+      if (watchImage) {
+        document.getElementById("watch-image").src = watchImage;
+      }
+
+      if (watchPrice) {
+        document.getElementById("watch-price").textContent = `₹${watchPrice}`;
+      }
+    </script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const totalDiv = document.querySelectorAll(
+          ".suggestion-product .product-card"
+        );  // here it countes the total number of product card
+        const totalS = 3; // this much i have to show in suggestion random 3 products
+
+        if (totalDiv.length > totalS) {
+          let selectDiv = new Set(); // creating set 
+
+          while (selectDiv.size < totalS) {  // runnig this loop untill its less then total means [0,1,2] total 3 < less then 3
+            let randomId = Math.floor(Math.random() * totalDiv.length); // math.random generates random number between 0 to 1 then it mulitplies with total div after the floors and gives a indix 0.9
+            selectDiv.add(randomId); // here adding the randomId index into the set
+          }
+
+          totalDiv.forEach((div) => (div.style.display = "none")); // making all display none 
+
+          selectDiv.forEach((index) => {  // using for each to applty function on each in array
+            totalDiv[index].style.display = "flex"; // making selected index display flex
+          });
+        }
+      });
+    </script>
+  </body>
+</html>
