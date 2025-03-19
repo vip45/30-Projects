@@ -38,6 +38,7 @@ section.header-section {
     position: sticky;
     top: 0;
     z-index: 1000;
+    margin-bottom: 30px;
 }
 
 .navbar-btn {
@@ -266,7 +267,7 @@ img.slick-arrow.slick-disabled {
     }
     & .prod-img img {
         transform: scale(1.1);
-        transition: transform 0.5s ease-in-out;
+        transition: transform 0.3s ease-in-out;
     }
 }
 
@@ -403,3 +404,62 @@ p.book-now-warranty {
     transform: rotate(-15deg);
     transition: scale 1s ease, transform 1s ease;
 }
+
+
+/* contact us page */
+
+.contact-us-form-main {
+    display: flex;
+    justify-content: space-between;
+    gap: 12px;
+}
+
+.form-div {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.form-div input:not(:last-child) {
+    margin-bottom: 24px;
+}
+
+select#prod-name {
+    /* all: unset; */
+    border: 1px solid #c4c4c4;
+    padding: 10px;
+    margin-bottom: 24px;
+    height: 46px;
+}
+
+.form-div input {
+    all: unset;
+    border: 1px solid #B0B0B0;
+    padding: 10px;
+}
+
+.form-div label {
+    font-size: 16px;
+    font-weight: 600;
+    color: #222222;
+    margin-bottom: 8px;
+}
+
+input#comments {
+    height: 100%;
+}
+
+input#contact-us-submit-btn {
+    all: unset;
+    cursor: pointer;
+    background: #FF5722;
+    padding: 12px 24px;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+
+/* contact us end */

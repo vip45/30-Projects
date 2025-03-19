@@ -42,32 +42,32 @@ const watches = [{
         price: 18000,
     },
     {
-        name: "Zoro Mindsweep G",
+        name: "Rolex Submariner",
         image: "resource/images/watch1.svg",
         price: 36000,
     },
     {
-        name: "Romeleu Authentic",
+        name: "Omega Speedmaster",
         image: "resource/images/watch2.png",
         price: 60000,
     },
     {
-        name: "Sierra Large Dial",
+        name: "Tag Heuer Carrera",
         image: "resource/images/watch3.png",
         price: 39000,
     },
     {
-        name: "Zoro Mindsweep G",
+        name: "Audemars Piguet Royal Oak",
         image: "resource/images/watch1.svg",
         price: 120000,
     },
     {
-        name: "Romeleu Authentic",
+        name: "Patek Philippe Nautilus",
         image: "resource/images/watch2.png",
         price: 20990,
     },
     {
-        name: "Sierra Large Dial",
+        name: "Breitling Navitimer",
         image: "resource/images/watch3.png",
         price: 10000,
     },
@@ -103,3 +103,5 @@ document.addEventListener("click", function(event) {
       )}`;
     }
 });
+
+// id = prod  name
