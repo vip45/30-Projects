@@ -1,0 +1,112 @@
+.main-container{
+  max-width: 750px;
+  background-color: rgb(240, 239, 239);
+  margin: 0 auto;
+  height: 100vh;
+  position: relative;
+}
+
+.search-bar {
+  padding: 12px;
+  border: 1px solid lightcyan;
+  border-radius: 8px;
+}
+
+.search-bar input:focus-visible{
+    outline: 1px solid #6C63FF;
+}
+
+.search-bar input {
+  width: 70%;
+  border-radius: 8px;
+  border: 1px solid lightgray;
+  padding: 8px 16px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-style: italic;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+
+.search-bar select{
+  padding: 8px 4px;
+  margin-inline: 10px;
+  border-radius: 8px;
+
+}
+.search-bar button {
+  width: 12%;
+  border-radius: 8px;
+  border: none;
+  background-color:#6C63FF;
+  color: white;
+  font-weight: 500;
+  padding: 8px 16px;
+
+}
+
+.add-btn{
+  border: none;
+  position: fixed;
+  bottom: 5%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.add-btn img{
+  transition: all 0.3s ease;
+
+}
+.modal-div input{
+    width: 100%;
+  border-radius: 8px;
+  border: 1px solid lightgray;
+  padding: 8px 16px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-style: italic;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+.modal-div input:focus-visible{
+    outline: 1px solid #6C63FF;
+}
+.modal-div {
+  height: 200px;
+  width: 90%;
+  background-color: white;
+  border: 1px solid skyblue;
+  box-shadow: 0 0 10px #a6a2e6;
+  border-radius: 16px;
+  padding: 24px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%,50%);
+}
+
+.modal-btns{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 24px;
+}
+.modal-btns>button{
+  padding: 8px 16px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: 500;
+  color: white;
+  border: 1px solid #1a192f;
+  border-radius: 12px;
+  background-color: #6C63FF;
+  cursor: pointer;
+}
+
+.modal-cancel-btn {
+  background-color: rgb(222, 65, 96) !important;
+}
+.modal-btns>button:hover{
+  transform: scale(1.1);
+  transition: all 0.2s ease-in;
+}
+
+.cross img {
+  transform: rotate(225deg);
+  transition: all 0.3s ease;
+}
