@@ -110,3 +110,35 @@
   transform: rotate(225deg);
   transition: all 0.3s ease;
 }
+
+.main-list-container{
+  margin: 0 auto;
+  max-width: 90%;
+}
+.ulist{
+  padding: 0;
+}
+.ulist li {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 8px;
+  background-color: whitesmoke;
+}
+
+.ulist li input {
+  height: 24px;
+  width: 24px;
+  margin-right: 12px;
+  cursor: pointer;
+}
+.ulist li p{
+  margin: unset;
+  letter-spacing: 1px;
+  font-style: oblique;
+}
+
+.true {
+  text-decoration: line-through;
+  opacity: 0.7;
+}
