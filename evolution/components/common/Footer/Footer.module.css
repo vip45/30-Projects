@@ -1,0 +1,114 @@
+.footerMain {
+  padding: 40px 16px;
+  background-color: var(--footerBG);
+  color: var(--text-white);
+}
+.footer_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer_top {
+  max-width: 278px;
+}
+.footer_top > p {
+  color: #ffffffb2;
+  font-size: 12px;
+  line-height: 16px;
+  margin-top: 24px;
+  margin-bottom: 48px;
+  font-family: "Inter-400";
+}
+.footerLinks {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  flex-direction: column;
+  gap: 16px;
+}
+.footerContact p {
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 100%;
+  font-family: "Inter-500";
+  margin-bottom: 20px;
+}
+.footerLinks a {
+  color: #ffffffb2;
+  font-size: 12px;
+  line-height: 16px;
+  font-family: "Inter-400";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.footerBottom,
+.footerBottomMain {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.footerBottomMain > div {
+  width: 150px;
+}
+.footerBottomMain > div p {
+  margin-bottom: 24px;
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 100%;
+  font-family: "Inter-500";
+}
+.footerBottomMain > div > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  gap: 16px;
+}
+.footerBottomMain > div > div a {
+  color: #ffffffb2;
+  font-size: 14px;
+  line-height: 100%;
+  font-family: "Inter-400";
+}
+.footerInput {
+  background: #2d2d314d;
+  padding: 30px;
+  width: 335px;
+}
+.footerInput p {
+  color: #fff;
+  font-size: 14px;
+  line-height: 100%;
+  font-family: "Inter-500";
+  margin-bottom: 20px;
+}
+.footerInput > div {
+  position: relative;
+}
+.footerInput div input {
+  /* background-color: transparent !important;
+
+  background: none; */
+  padding: 10px 20px;
+  background: #ffffff08;
+  color: #ffffffb2;
+  width: 100%;
+  border: none;
+  font-size: 12px;
+  line-height: 140%;
+  font-family: "Inter-400";
+}
+.footerInput div input:focus {
+  outline: none;
+}
+.footerInput div button {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  height: 100%;
+  padding: 0 20px;
+  cursor: pointer;
+}
