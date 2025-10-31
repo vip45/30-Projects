@@ -1,0 +1,43 @@
+.main-container{
+    max-width: 750px;
+    width: 100%;
+    margin: 0 auto;
+    border: 1px solid ; 
+    height: 100vh;
+}
+.add-btn{
+    position: fixed;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: none;
+    border: none;
+    outline: none;
+}
+.list-checkbox{
+    display: flex;
+    align-items: center;
+    padding: 4px 8px;
+    border: 1px solid #eee;
+    margin: 0 4px 4px 4px ;
+
+}
+.list-checkbox input{
+    height: 20px;
+    width: 20px;
+}
+.list-checkbox p{
+    margin: 0 8px;
+    font-size: 20px;
+
+}
+.list-delete-button{
+    color: white;
+    font-size: 18px;
+    font-weight:400;
+    padding: 4px 24px;
+    border: none;
+    border-radius: 12px;
+    margin-left: auto;
+    
+}
