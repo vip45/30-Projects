@@ -1,0 +1,135 @@
+.blogDetails h2{
+    font-size: 40px;
+    line-height: 44px;
+    font-family: 'Gilda-400';
+    margin-bottom: 30px;
+    letter-spacing: 0%;
+}
+.para{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.para p{
+    margin: unset;
+    font-size: 14px;
+    line-height: 22px;
+    font-family: 'Inter-400';
+    color: #000000b2;
+}
+.blogImage {
+    margin-top: 30px;
+}
+
+.comfortCardMain {
+    max-width: 185px;
+    margin-bottom: 12px;
+}
+.comfortCards {
+    display: flex;
+    gap: 20px;
+    overflow: auto;
+}
+.comfortCards::-webkit-scrollbar {
+  height: 6px; /* horizontal scrollbar height */
+}
+
+.comfortCards::-webkit-scrollbar-track {
+  background: #f1f1f1; /* track color */
+  border-radius: 10px;
+}
+
+.comfortCards::-webkit-scrollbar-thumb {
+  background: #888; /* scrollbar color */
+  border-radius: 10px;
+}
+
+.comfortCards::-webkit-scrollbar-thumb:hover {
+  background: #555; /* hover color */
+}
+
+.listenMain{
+  background-color: #D5E6E6;
+  padding: 32px;
+  overflow: hidden;
+}
+.gif{
+  width: 69px;
+  height:58px;
+  filter: brightness(0) saturate(100%);
+}
+.listenMain div{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+    justify-content: center;
+}
+.trend{
+background-color: #F7F7F7;
+padding: 32px;
+overflow: hidden;
+margin: 50px auto ;
+}
+.trend h4{
+  font-family: 'Gilda-400';
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+  margin-bottom: 16px;
+}
+.trend p{
+  color: #006767;
+  font-size: 12px;
+  font-family: 'Inter-500';
+  line-height: 16px;
+  margin-bottom: 20px;
+  text-wrap: nowrap;
+    overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.trend a , .common_a{
+  text-transform: uppercase;
+  border-bottom: 1px solid;
+  font-family: 'Inter-500';
+  font-size: 14px;
+  line-height: 18px;
+}
+.slidePar{
+  max-width: 336px;
+}
+.relatedBlogs{
+  background-color: #F7F7F7;
+  padding: 32px;
+}
+.relatedBlogs h4{
+  color: #000000;
+  font-size: 24px;
+  line-height: 28px;
+  font-family: 'Gilda-400';
+  margin-bottom: 26px;
+}
+.relatedLoc {
+  font-size: 12px;
+  line-height:16px;
+  font-family: 'Inter-500';
+  margin-bottom: 12px;
+  margin-top: 12px;
+  color: #000000B2;
+}
+.slideMain a{
+  margin-top: 22px;
+  display: block;
+  font-size: 18px;
+  line-height: 22px;
+  /* letter-spacing: -2px; */
+  font-family: 'Inter-600';
+}
+
+.relatedBlogPara{
+  color: #333333B2;
+  font-size: 14px;
+  line-height: 18px;
+  font-family: 'Inter-500';
+
+}

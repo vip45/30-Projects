@@ -1,0 +1,21 @@
+.blogMain {
+  padding: 100px 16px;
+}
+.blogDetail {
+  max-width: 800px;
+  width: 100%;
+}
+.blogMain > div {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+.moreDetails {
+  position: sticky;
+  top: 96px;
+}
+.moreblogs{
+    max-width: 400px;
+    width: 100%;
+}
