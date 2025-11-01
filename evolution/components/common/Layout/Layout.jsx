@@ -5,9 +5,9 @@ import styles from './Layout.module.css'
 
 const Layout = ({children}) => {
   return (
-    <div>
+    <>
       <Header />
-      <main>{children}</main>
+        <main className={styles.main}>{children}</main>
       <Footer />
       <div className={styles.footerCopyright}>
         <div>
@@ -26,7 +26,7 @@ const Layout = ({children}) => {
         </div>
         <p>© 2025— Copyright</p>
       </div>
-    </div>
+    </>
   );
 }
 

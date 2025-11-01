@@ -1,0 +1,13 @@
+.breadCrumb{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+.breadCrumb a{
+    font-size: 12px;
+    line-height: 140%;
+    font-family: 'Inter-600';
+    color: #FFFFFF;
+}
