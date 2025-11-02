@@ -7,6 +7,8 @@
     max-width: 100%;
     width: 100%;
     height: auto;
+    max-height: 100vh;
+    object-fit: cover;
 }
 
 .sliderTabs{
@@ -47,4 +49,15 @@ margin: 0 auto;
 
 .sliderTabs .divider:last-child {
   display: none;
+}
+
+@media screen and (max-width:991.2px) {
+    .sliderBgImage img{
+        height: 468px;
+        object-fit: cover;
+    }
+    .sliderTabs{
+        justify-content: start;
+        padding: 20px 0;
+    }
 }

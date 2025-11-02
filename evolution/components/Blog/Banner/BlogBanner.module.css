@@ -1,6 +1,7 @@
 .blogBannerImg {
     width: 100%;
-    height: auto;
+    height: 90vh;
+    object-fit: cover;
 }
 .blogBanner{
     position: relative;
@@ -32,6 +33,7 @@
     align-items: center;
     gap: 30px;
     margin: 80px 0 60px 0;
+    flex-wrap: wrap;
 }
 .banner_content ul li{
     padding-left: 20px;
@@ -66,4 +68,19 @@
     background: #FFFFFF29;
 backdrop-filter: blur(18px);
 
+}
+
+@media screen and (max-width:991.2px){
+    .banner_content h1{
+        font-size: 28px;
+        line-height: 36px;
+    }
+    .banner_content h1 br{
+        display: none;
+    }
+    .banner_content ul{
+        margin: 20px 0;
+        padding-left: 0;
+        gap: 12px;
+    }
 }

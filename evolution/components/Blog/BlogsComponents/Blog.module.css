@@ -133,3 +133,15 @@ margin: 50px auto ;
   font-family: 'Inter-500';
 
 }
+.comfortCardMain h3{
+  font-size: 16px;
+  line-height: 100%;
+  margin: 16px 0;
+  font-family: Inter-700;
+  color: #000;
+}
+.comfortCardMain p{
+  font-size: 14px;
+  line-height: 18px;
+  column-rule: #000000;
+}

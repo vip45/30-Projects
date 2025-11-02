@@ -45,3 +45,15 @@ padding: 12px 10px;
 text-transform: uppercase;
 
 }
+@media screen and (max-width:991.2px) {
+  .homeVideo{
+    padding: 40px 00;
+  }
+  .videoElements{
+    padding: 0 4px 12px 4px;
+  }
+  .videoText{
+    flex-direction: row;
+  }
+  
+}

@@ -81,3 +81,30 @@
 .active{
     border-bottom: 1px solid #333333;
 }
+
+@media screen and (max-width:991.2px) {
+  .housePlan {
+    padding: 80px 16px;
+  }
+  .mainTabLeft{
+    order: 2;
+  }
+  .mainTab{
+    gap: 20px;
+  }
+  .navigations{
+    justify-content: start;
+    gap: 12px;
+  }
+  .navigations button{
+    font-size: 18px;
+    line-height: 28px;
+    padding: 6px 10px;
+  }
+  .mainTabLeft button{
+    width: 100%;
+  }
+  .mainTabLeftDiv{
+    padding: 20px 0;
+  }
+}

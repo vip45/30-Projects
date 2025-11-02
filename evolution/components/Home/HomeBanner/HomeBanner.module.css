@@ -76,7 +76,12 @@ padding-bottom: 40px;
 .bannerData button:hover{
     background-color: #049999db;
 }
-
+.divider{
+    width: 1px;
+    height: 48px;
+    padding: 1px;
+    background-color: rgb(142, 133, 133);
+}
 @media screen and (max-width:991.2px) and (min-width:320px){
     .homeMain{
         flex-direction: column;
@@ -84,10 +89,17 @@ padding-bottom: 40px;
     }
     .bannerData h1{
         text-wrap: wrap;
+        font-size: 42px;
+        line-height: 42px;
+        margin-bottom: 24px;
+        margin-top: 40px;
     }
     .bannerData {
         margin: unset;
         max-width: 100%;
         padding: 48px 16px 16px 16px;
+    }
+    .homeStrip{
+        gap: 16px;
     }
 }

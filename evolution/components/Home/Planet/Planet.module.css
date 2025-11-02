@@ -37,6 +37,8 @@
     font-size: 16px;
     line-height: 18px;
     font-family: 'Inter-500';
+    max-width: 212px;
+    width: 100%;
 }
 .planetCard {
     display: flex;
@@ -97,7 +99,7 @@ font-family: Inter-400;
     .planetMain{
         flex-direction: column;
     }
-    .rightData > div >p{
-        text-align: right;
+    .planet{
+        padding: 50px 16px;
     }
 }
