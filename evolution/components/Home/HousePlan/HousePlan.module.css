@@ -1,0 +1,83 @@
+.housePlan {
+  padding: 120px 0;
+}
+.housePlanNav {
+  background: #f5f5f5;
+  width: 100%;
+  padding: 40px 16px;
+}
+.navigations {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  margin-bottom: 40px;
+  overflow: auto;
+}
+.navigations::-webkit-scrollbar{
+    display: none;
+}
+.navigations button {
+  padding: 6px 20px;
+  color: #000000;
+  font-size: 24px;
+  line-height: 28px;
+  font-family: Gilda-400;
+  letter-spacing: -1px;
+  text-wrap: nowrap;
+}
+.mainTab {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  gap: 80px;
+  flex-wrap: wrap;
+}
+
+.mainTabLeft {
+  display: flex;
+  justify-content: space-around;
+  align-items: start;
+  flex-direction: column;
+  height: 100%;
+  min-width: 306px;
+}
+
+.mainTabLeftDiv {
+  padding: 30px 0;
+  border-bottom: 1px solid #00000033;
+  width: 100%;
+}
+
+.mainTabLeftDiv p {
+  color: #333333b2;
+  font-size: 8px;
+  line-height: 100%;
+  font-family: Inter-500;
+  text-transform: uppercase;
+  margin-bottom: 16px;
+}
+.mainTabLeftDiv h3 {
+  color: #000000;
+  font-size: 24px;
+  line-height: 28px;
+  font-family: Gilda-400;
+  letter-spacing: -1px;
+}
+.mainTabLeft > div {
+  width: 100%;
+}
+
+.mainTabLeft button {
+  padding: 20px 28px;
+  color: #333333;
+  font-size: 12px;
+  line-height: 18px;
+  font-family: Inter-500;
+  border: 1px solid #333333;
+  margin-top: 20px;
+}
+
+.active{
+    border-bottom: 1px solid #333333;
+}

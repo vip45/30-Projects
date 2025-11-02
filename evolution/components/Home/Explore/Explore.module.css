@@ -1,0 +1,120 @@
+.exploreHeadings{
+    max-width: 1312px;
+    padding: 0 16px;
+    margin: 0 auto;
+}
+.exploreHeadings p{
+    font-size: 12px;
+    line-height: 16px;
+    margin-bottom: 32px;
+    color: #898989;
+    font-family: Inter-500;
+}
+.exploreHeadings h2{
+    color: #000000;
+    font-size: 44px;
+    line-height: 48px;
+    font-family: 'Gilda-400';
+    margin-bottom: 20px;
+}
+.explore{
+    padding: 80px 0;
+    background-color: #EDEDED;
+    overflow: hidden;
+}
+
+.exploreList > div{
+    height: 64px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 236px;
+    gap: 24px;
+    cursor: pointer;
+    border-bottom: 1px solid #0000001A;
+    margin-bottom: 10px;
+}
+.exploreList{
+    background-color: white;
+    padding: 10px 16px;
+    width: max-content;
+}
+.mapContainer{
+    position: relative;
+}
+.exploreList{
+    position: absolute;
+    right: 10%;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 3;
+}
+
+
+
+.markers > div {
+  position: relative;
+  width: auto;  /* natural width of circle */
+  height: auto; /* natural height of circle */
+}
+
+/* Circle image natural size */
+.markers > div > div img {
+  display: block;
+  width: auto;
+  height: auto;
+}
+
+/* Marker container */
+.randomMarker {
+  /* position: relative; */
+  width: 100%;
+  height: 100%;
+}
+
+/* Marker pins */
+.randomMarker img {
+  position: absolute;
+  width: 20px; /* adjust as needed */
+  height: 20px;
+  transition: transform 0.3s ease;
+}
+
+/* Position each marker individually */
+.randomMarker img:nth-child(1) {
+  top: 10%;
+  left: 20%;
+}
+
+.randomMarker img:nth-child(2) {
+  top: 40%;
+  left: 35%;
+}
+
+.randomMarker img:nth-child(3) {
+  top: 60%;
+  left: 50%;
+}
+
+.randomMarker img:nth-child(4) {
+  top: 25%;
+  left: 70%;
+}
+
+.randomMarker img:nth-child(5) {
+  top: 55%;
+  left: 80%;
+}
+
+/* Optional hover effect */
+.randomMarker img:hover {
+  transform: scale(1.3);
+  z-index: 2;
+}
+
+.markers {
+    top: 50%;
+    left:30%;
+    transform: translate(-50%,-50%);
+    z-index: 2;
+}

@@ -1,0 +1,47 @@
+.homeVideo {
+  padding: 120px 00;
+}
+.videoDiv {
+  max-width: 1080px;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+}
+.video {
+  width: 100%;
+}
+.videoElements {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  padding: 0 36px 36px 36px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: end;
+}
+.videoBtns {
+  background: #ffffff29;
+  backdrop-filter: blur(18px);
+  padding: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+.videoText{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.videoText p{
+    color: #FFFFFF;
+    font-size: 12px;
+    line-height: 16px;
+    font-family: Inter-500;
+    background: #00000033;
+backdrop-filter: blur(3px);
+padding: 12px 10px;
+text-transform: uppercase;
+
+}

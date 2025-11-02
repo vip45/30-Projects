@@ -19,3 +19,8 @@
     max-width: 400px;
     width: 100%;
 }
+.blogDetail{
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}

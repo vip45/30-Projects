@@ -1,0 +1,64 @@
+.video{
+    width: 100%;
+}
+
+.blueprint_slide{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    overflow: auto;
+
+}
+.blueprint_slide::-webkit-scrollbar{
+    display: none;
+}
+.blueprint{
+    padding: 80px 16px;
+}
+.blueprint > p{
+    color: #898989;
+    font-size: 12px;
+    line-height: 16px;
+    font-family: 'Inter-500';
+    margin-bottom: 32px;
+    text-align: center;
+}
+.blueprint > h2{
+margin-bottom: 20px;
+font-family: Gilda-400;
+font-size: 44px;
+line-height: 48px;
+letter-spacing: -2px;
+text-align: center  ;
+}
+
+.blueprintVideoCard{
+    position: relative;
+}
+.blueprintVideoCard p{
+    position: absolute;
+    top: 12px;
+    left: 12px;
+    background: #00000080;
+    color: #ffffff;
+    font-size: 10px;
+    line-height: 100%;
+    padding: 6px 10px;
+}
+.blueprintVideoCard h4{
+    margin-top: 16px;
+    color: #000;
+    font-size: 24px;
+    line-height: 28px;
+    font-family: Gilda-400;
+}
+
+@media screen and (max-width:991.2px) and (min-width:320px){
+    .blueprintVideoCard{
+        min-width: 300px;
+    }
+    .blueprint_slide{
+        justify-content: start;
+    }
+}

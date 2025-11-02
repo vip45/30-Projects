@@ -1,0 +1,21 @@
+.map_main{
+    position: relative;
+}
+.mainMap{
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translateY(-50%);
+}
+.map_img img{
+    min-height: 689px;
+}
+
+@media screen and (max-width:992px) {
+    .click{
+        display: none;
+    }
+    .mainMap{
+        left: unset;
+    }
+}

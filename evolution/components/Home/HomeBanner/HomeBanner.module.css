@@ -1,0 +1,93 @@
+.homeBanner {
+    background:url('/images/home/banner-bg.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;   
+    position: relative;
+    overflow: hidden;
+}
+.stripName{
+    color: #FFFFFF;
+    font-size: 24px;
+    line-height: 28px;
+    font-family: 'Gilda-400';
+    text-align: center;
+    margin-bottom: 20px;
+    text-wrap: nowrap;
+}
+.stripDetail{
+    color: #FFFFFF;
+    font-size: 12px;
+    line-height: 16px;
+    font-family: 'Inter-500';
+    text-align: center;
+    text-wrap: nowrap;
+}
+.homeStrip {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 36px;
+    overflow: auto;
+    max-width: max-content;
+    margin: 0 auto ;
+    margin-top: -80px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.6) 100%);
+backdrop-filter: blur(2px);
+padding-bottom: 40px;
+
+}
+
+.homeStrip > div p{
+    min-width: 150px;
+}
+.homeStrip::-webkit-scrollbar{
+    display: none;
+}
+.bannerData {
+    margin-left: 6%;
+    max-width: 536px;
+    width: 100%;
+}
+.bannerData h1{
+    font-size: 70px;
+    margin-bottom: 40px;
+    line-height: 100%;
+    font-family: Gilda-400;
+    color: #FFFFFF;
+    letter-spacing: -4px;
+    text-wrap: nowrap;
+}
+.bannerData p{
+    font-size: 14px;
+    line-height: 18px;
+    font-family: Inter-500;
+    color: #FFFFFFB2;
+    margin-bottom: 40px;
+}
+.bannerData button{
+    text-transform: uppercase;
+    font-family: 'Inter-500';
+    color: #FFFFFFb5;
+    font-size: 12px;
+    line-height: 18px;
+    padding: 12px 28px;
+    background-color: #005E5E;
+}
+.bannerData button:hover{
+    background-color: #049999db;
+}
+
+@media screen and (max-width:991.2px) and (min-width:320px){
+    .homeMain{
+        flex-direction: column;
+        justify-content: center !important;
+    }
+    .bannerData h1{
+        text-wrap: wrap;
+    }
+    .bannerData {
+        margin: unset;
+        max-width: 100%;
+        padding: 48px 16px 16px 16px;
+    }
+}

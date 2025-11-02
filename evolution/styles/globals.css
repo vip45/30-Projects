@@ -98,3 +98,6 @@ button{
   border: none;
   background: none;
 }
+p{
+  margin: 0;
+}

@@ -1,9 +1,16 @@
+
+.headerNone{
+    display: none;
+    transition: all 0.3s ease-in;
+}
 .header{
-    padding: 20px 16px;
+    padding: 8px 16px;
     background-color: rgba(0, 0, 0, 0.1);
     position: fixed;
     width: 100%;
     z-index: 1050;
+    transition: all 0.3s ease-in;
+
 }
 .header > div{
     display: flex;

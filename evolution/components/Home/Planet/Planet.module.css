@@ -1,0 +1,103 @@
+.planet{
+    padding: 100px 16px;
+}
+.planet > p{
+    color: #898989;
+    font-size: 12px;
+    line-height: 16px;
+    font-family: 'Inter-500';
+    margin-bottom: 32px;
+    text-align: center;
+}
+.planet > h2{
+    color: #000000;
+    font-size: 44px;
+    line-height: 48px;
+    margin-bottom: 20px;
+    font-family: 'Gilda-400 ';
+    text-align: center;
+}
+.planetMain {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+}
+.rightData > div{
+    width: 555px;
+   display: flex;
+   height: 100px;
+   padding-right: 32px;
+   align-items: center;
+   justify-content: space-between;
+   border-bottom: 1px solid #0000001A;
+}
+.rightData > div > p{
+    color: #000000CC;
+    font-size: 16px;
+    line-height: 18px;
+    font-family: 'Inter-500';
+}
+.planetCard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-top: 40px;
+    flex-wrap: wrap;
+}
+
+.mainCard {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 290px;
+    width: 100%;
+    background-color: #E6F0F0;
+    padding: 16px;
+    gap: 32px;
+}
+.mainCard > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.mainCard > div p {
+text-wrap: nowrap;
+}
+
+.mainCard > div:first-child > p:first-child {
+font-size: 6px;
+color: white;
+background: #00000066;
+line-height: 100%;
+padding: 6px 14px;
+font-family: Inter-400;
+}
+.mainCard > div:first-child > p:last-child {
+  font-size: 8px;
+  line-height: 10px;
+  color: #666666;
+  font-family: Inter-500;
+}
+.mainCard > div:last-child > p {
+  color: #4D4D4D;
+  font-size: 12px;
+  line-height: 100%;
+  font-family: Inter-400;
+}
+.mainCard > div:last-child > img {
+  cursor: pointer;
+}
+
+@media screen and (max-width:991.2px) and (min-width:320px){
+    .rightData > div{
+        width: 100%;
+    }
+    .planetMain{
+        flex-direction: column;
+    }
+    .rightData > div >p{
+        text-align: right;
+    }
+}
