@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: 'Inter-400';
+  src: local('Inter'), url('https://fonts.gstatic.com/s/inter/v12/UcCO3FwrK3iLTZ2VFkc.ttf') format('truetype');
+  font-weight: 400;
+}
+@font-face {
+  font-family: 'Inter-500';
+  src: local('Inter'), url('https://fonts.gstatic.com/s/inter/v12/UcCO3FwrK3iLTZ2VFkc.ttf') format('truetype');
+  font-weight: 500;
+}
+@font-face {
+  font-family: 'Inter-600';
+  src: local('Inter'), url('https://fonts.gstatic.com/s/inter/v12/UcCO3FwrK3iLTZ2VFkc.ttf') format('truetype');
+  font-weight: 600;
+}
+@font-face {
+  font-family: 'Inter-700';
+  src: local('Inter'), url('https://fonts.gstatic.com/s/inter/v12/UcCO3FwrK3iLTZ2VFkc.ttf') format('truetype');
+  font-weight: 700;
+}

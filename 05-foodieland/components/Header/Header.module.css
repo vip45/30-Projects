@@ -1,0 +1,40 @@
+.header{
+    padding: 40px 16px;
+    background-color: #FFF;
+    border-bottom: 1px solid #0000001a;
+}
+.headerMain{
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.header_links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+}
+.header_links a{
+    color: #000;
+    font-family: Inter-500;
+    text-decoration: none;   
+    font-size: 16px;
+    line-height: 18px;
+}
+.socialMedia{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.logo{
+    font-size: 24px;
+    line-height: 30px;
+    font-family: Inter-600;
+    font-style: italic;
+    color: #000;
+}
+.logo span{
+    color: #FF7426;
+}
