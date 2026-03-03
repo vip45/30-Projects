@@ -1,9 +1,14 @@
-import React from 'react'
+import React from "react";
+import NavUser from "../components/NavUser";
 
 const About = () => {
   return (
-    <div>About</div>
-  )
-}
+    <div className="text-center ">
+      <h1>About Page</h1>
 
-export default About
+      <NavUser />
+    </div>
+  );
+};
+
+export default About;
